@@ -1,0 +1,39 @@
+{
+  "name": "muti-template",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "dependencies": {
+    "lodash": "^4.17.19",
+    "vue": "^2.6.11",
+    "vue-router": "^3.3.4"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.10.5",
+    "autoprefixer": "^9.8.5",
+    "babel-loader": "^8.1.0",
+    "clean-webpack-plugin": "^3.0.0",
+    "css-loader": "^3.6.0",
+    "file-loader": "^6.0.0",
+    "html-webpack-plugin": "^4.3.0",
+    "less-loader": "^6.2.0",
+    "postcss-loader": "^3.0.0",
+    "sass-loader": "^9.0.2",
+    "style-loader": "^1.2.1",
+    "url-loader": "^4.1.0",
+    "vue-loader": "^15.9.3",
+    "vue-template-compiler": "^2.6.11",
+    "webpack": "^5.0.0-beta.22",
+    "webpack-cli": "^3.3.12",
+    "webpack-dev-server": "^3.11.0",
+    "webpack-merge": "^5.0.9"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "zzzzz=https://xxx.com zzz=web webpack --config webpack.prod.js",
+    "dev": "webpack-dev-server --config ./webpack.dev.js --open --progress"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
+}
