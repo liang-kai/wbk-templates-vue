@@ -1,8 +1,10 @@
 // import Vue from 'vue'
-// import './style.css'
-const avatar = require('../../assets/user.png')
+import './style.css'
+// const avatar = require('../../assets/user.png')
 const close = require('../../assets/download.png')
-console.log(process.env)
+
+import avatar from '../../assets/user.png'
+// console.log(process.env)
 if(process.env.NODE_ENV === 'production'){
   console.log('production')
 }else if(process.env.NODE_ENV === 'development'){
@@ -10,12 +12,12 @@ if(process.env.NODE_ENV === 'production'){
 }else if(process.env.NODE_ENV === 'test'){
   console.log('test')
 }
-if(process.env.NO_ENV === 'test'){
-  console.log('no env')
-}
-if(process.env.zzz ==='web'){
-  console.log('web')
-}
+// if(process.env.NO_ENV === 'test'){
+//   console.log('no env')
+// }
+// if(process.env.zzz ==='web'){
+//   console.log('web')
+// }
 console.log('xxx')
 
 let image = new Image()
