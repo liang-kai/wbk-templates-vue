@@ -1,5 +1,5 @@
 // import Vue from 'vue'
-import './style.css'
+// import './style.css'
 // const avatar = require('../../assets/user.png')
 const close = require('../../assets/download.png')
 
@@ -23,3 +23,17 @@ console.log('xxx')
 let image = new Image()
 image.src = avatar
 document.body.appendChild(image)
+
+@log
+class FOO{
+  constructor(name){
+    this.name = name
+  }
+}
+const foo = new FOO()
+
+function log(){}
+
+([]).includes(2)
+
+Promise.resolve().then(()=>{})
